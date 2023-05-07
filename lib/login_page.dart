@@ -9,6 +9,7 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   @override
+  // widget untuk membuat tampilan logo login menggunakan assets image
   Widget build(BuildContext context) {
     final logo = Hero(
       tag: 'hero',
@@ -45,6 +46,7 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
 
+// widget untuk login button yang akan mengarah pada halaman Homepage
     final loginButton = Padding(
       padding: EdgeInsets.symmetric(vertical: 16.0),
       child: Material(

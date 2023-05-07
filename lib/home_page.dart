@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   static String tag = 'home-page';
 
+// Membuat tampilan untuk foto profil
   @override
   Widget build(BuildContext context) {
     final profil = Hero(
@@ -17,6 +18,7 @@ class HomePage extends StatelessWidget {
       ),
     );
 
+// Membuat tampilan dalam bentuk text
     final sambutan = Padding(
       padding: EdgeInsets.all(8.0),
       child: Text(
@@ -35,6 +37,7 @@ class HomePage extends StatelessWidget {
       ),
     );
 
+// mengatur/mendesain tampilan pada homepage
     final body = Container(
       width: MediaQuery.of(context).size.width,
       padding: EdgeInsets.all(28.0),
